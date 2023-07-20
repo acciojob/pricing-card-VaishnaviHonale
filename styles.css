@@ -1,1 +1,22 @@
 /*  your css code here. If applicable */
+body{
+	magin:0;
+	padding:0;
+	diplay:flex;
+	justify-content:center;
+	align-heigth:100vh;
+	background-color:#f0f0f0;
+	
+}
+.pricing-card{
+	max-width:300px;
+	box-shadow:0 2px 6px rgba(0,0,0,0 1);
+	border-radius:8px;
+	overflow:hidden;
+}
+.pricing-card img{
+	width:100%;
+	display:block;
+	border-radius:8px 8px 0 0;
+	
+}
